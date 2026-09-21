@@ -1,0 +1,8 @@
+{
+  "name": "Northstar Digital Markets",
+  "description": "Intelligent crypto market tools, automated trading strategies, staking pools, and portfolio dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

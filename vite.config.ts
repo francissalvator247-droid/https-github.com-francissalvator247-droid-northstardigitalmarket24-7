@@ -6,6 +6,10 @@ export default defineConfig({
     server: { entry: "server" },
   },
   vite: {
+    define: {
+      "import.meta.env.VITE_BTC_DEPOSIT_ADDRESS": JSON.stringify("1QEmV7Uh23XyNdLM1oqo6wqZVKoAbR5MQ1"),
+      "process.env.VITE_BTC_DEPOSIT_ADDRESS": JSON.stringify("1QEmV7Uh23XyNdLM1oqo6wqZVKoAbR5MQ1"),
+    },
     server: {
       host: "0.0.0.0",
       port: 3000,
